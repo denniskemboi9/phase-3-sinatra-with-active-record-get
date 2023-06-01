@@ -35,6 +35,8 @@ group :development do
   gem "rerun"
 
   gem "pry"
+
+  gem 'webrick', '~> 1.8', '>= 1.8.1'
 end
 
 # These gems will only be used when we are running tests
